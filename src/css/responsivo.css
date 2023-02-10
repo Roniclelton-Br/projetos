@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+  body {
+    background-color: blueviolet;
+  }
+  .fundo-video {
+    display: none;
+  }
+  .cabecalho {
+    background-color:  rgb(118, 41, 190);
+  }
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .imagem-bolos {
+    display: none;
+  }
+  .container .whatsapp {
+    width: 150px;
+  }
+  .container .logo-wrbolos {
+    width: 50%;
+  }
+  .container .informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 500px) {
+.cabecalho {
+    flex-wrap: wrap;
+
+}
+}

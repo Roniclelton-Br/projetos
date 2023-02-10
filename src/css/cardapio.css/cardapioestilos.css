@@ -1,0 +1,65 @@
+body {
+    font-family: Poppins;
+}
+.cardapio-cabecalho {
+    background-color: rgb(118, 41, 190);
+    display: flex;
+    max-width: 1440px;
+    padding: 20px;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.cardapio-logo {
+    width: 60px;
+}
+
+.cardapio-menu li a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cardapio-container {
+    background-color: blueviolet;
+}
+.cardapio-menu li a:hover {
+    background-color: red;
+}
+.cardapio-bolo-2-amores img {
+    width: 200px;
+}
+
+.cardapio-bolo-2-amores {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.cardapio-bolo-brigadeiro img {
+    width: 200px;
+}
+.cardapio-bolo-brigadeiro {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.cardapio-bolo-maracuja img {
+    width: 200px;
+}
+.cardapio-bolo-maracuja {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cardapio-bolo-ninho img {
+    width: 200px;
+}
+.cardapio-bolo-ninho {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
